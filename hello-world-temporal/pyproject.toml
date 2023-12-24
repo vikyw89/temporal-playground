@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "temporal-playground"
+name = "hello-world-temporal"
 version = "0.1.0"
 description = ""
 authors = ["vikyw89 <vikyw89@gmail.com>"]
@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 temporalio = "^1.4.0"
+pytest = "^7.4.3"
+pytest-asyncio = "^0.23.2"
 
 
 [build-system]
